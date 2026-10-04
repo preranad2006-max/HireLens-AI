@@ -1,32 +1,65 @@
-# React + TypeScript + Vite
+# HireLens AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Explainable & Bias-Aware AI Resume Ranking Platform
 
-Currently, two official plugins are available:
+HireLens AI helps recruiters quickly identify the most suitable candidates by comparing resumes with a job description and providing transparent, explainable match results.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- 📄 Upload multiple resumes
+- 💼 Enter a job description
+- 🤖 AI-assisted resume & job description analysis
+- 📊 Candidate match score (0–100)
+- 🏆 Automatic candidate ranking
+- 🔍 Skill and experience matching
+- ❌ Missing skill detection
+- 💡 Explainable "Why this candidate?" results
+- ⚖️ Bias-aware scoring that avoids sensitive personal attributes
+- 🔎 Candidate search and filtering
+- 📋 Shortlist suitable candidates
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Vite
+- CSS
+- AI/NLP-based matching
+- PDF Resume Parsing
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🔄 How It Works
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```text
+Job Description
+       ↓
+Resume Upload
+       ↓
+Information Extraction
+       ↓
+Skill & Experience Matching
+       ↓
+Candidate Scoring
+       ↓
+Ranking & Explanation
+``` 
+
+ ## 🎯 Hackathon Focus
+
+HireLens AI focuses on accurate, explainable and bias-aware candidate ranking. 
+It helps recruiters understand not only who ranks highest, but also why.
+
+## ▶️ Run Locally
+
+```bash
+git clone https://github.com/preranad2006-max/HireLens-AI.git
+cd HireLens-AI
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 🤖 AI Usage
+AI-assisted development tools were used during development. The platform is designed to provide explainable matching while avoiding sensitive personal attributes in candidate scoring.
+
+## 👩‍💻 Author
+Prerana D
+GitHub: https://github.com/preranad2006-max/HireLens-AI⁠�
